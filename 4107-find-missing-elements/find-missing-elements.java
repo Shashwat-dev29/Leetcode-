@@ -13,15 +13,15 @@ class Solution {
                 max=nums[x];
             }
         }
-       ArrayList<Integer>list=new ArrayList<>();
+       HashSet<Integer>set=new HashSet<>();
         ArrayList<Integer>ans=new ArrayList<>();
        for(int x=0;x<nums.length;x++)
        {
-        list.add(nums[x]);
+        set.add(nums[x]);
        }
        for(int a=min;a<max;a++)
        {
-        if(!list.contains(a))
+        if(!set.contains(a))
         {
             ans.add(a);
         }
