@@ -1,0 +1,1 @@
+<h2>minimum-string-length-after-removing-substrings Notes</h2><hr>[ Time taken: 8hrs 12m 52s ]
